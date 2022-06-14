@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14   -fopenmp -O3 -DNDEBUG -std=c++14 -O3 -lboost_system -msse2 -msse3 -pthread -Wenum-compare    -rdynamic CMakeFiles/test_timer.dir/src/tools/test_timer.cpp.o  -o /home/cjy/navigation_ws/devel/lib/r3live/test_timer 

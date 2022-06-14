@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/msp_cmn.h
+msp_types.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/msp_types.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/msp_errors.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/msp_types.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/qisr.h
+msp_types.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/include/msp_types.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/samples/iat_record_sample/formats.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/speech_recognizer.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+samples/iat_record_sample/formats.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/samples/iat_record_sample/formats.h
+speech_recognizer.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/speech_recognizer.h
+qisr.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/qisr.h
+msp_cmn.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/msp_cmn.h
+msp_errors.h
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/msp_errors.h
+
+/home/cjy/navigation_ws/src/xiaoqiang_tts/src/engines/xunfei/sdk/src/speech_recognizer.h
+

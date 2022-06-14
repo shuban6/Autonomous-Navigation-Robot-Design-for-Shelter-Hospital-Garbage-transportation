@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/send_goal.dir/src/send_goal.cpp.o  -o send_goal 

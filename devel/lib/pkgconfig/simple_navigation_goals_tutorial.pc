@@ -1,0 +1,8 @@
+prefix=/home/cjy/navigation_ws/devel
+
+Name: simple_navigation_goals_tutorial
+Description: Description of simple_navigation_goals_tutorial
+Version: 0.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

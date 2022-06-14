@@ -1,0 +1,8 @@
+prefix=/home/cjy/navigation_ws/install
+
+Name: laser_scan_publisher_tutorial
+Description: Description of laser_scan_publisher_tutorial
+Version: 0.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

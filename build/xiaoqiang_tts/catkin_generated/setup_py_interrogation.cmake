@@ -1,0 +1,7 @@
+set(xiaoqiang_tts_SETUP_PY_SETUP_MODULE "distutils.core")
+set(xiaoqiang_tts_SETUP_PY_VERSION "0.0.1")
+set(xiaoqiang_tts_SETUP_PY_SCRIPTS "")
+set(xiaoqiang_tts_SETUP_PY_PACKAGES "xiaoqiang_tts")
+set(xiaoqiang_tts_SETUP_PY_PACKAGE_DIRS "src/engines/xunfei/sdk/src/xiaoqiang_tts")
+set(xiaoqiang_tts_SETUP_PY_MODULES "")
+set(xiaoqiang_tts_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/cjy/navigation_ws/devel
+
+Name: robot_setup_tf_tutorial
+Description: Description of robot_setup_tf_tutorial
+Version: 0.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

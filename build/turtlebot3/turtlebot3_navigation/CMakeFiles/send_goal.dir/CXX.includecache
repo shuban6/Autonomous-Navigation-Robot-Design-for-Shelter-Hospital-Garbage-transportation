@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cjy/navigation_ws/src/turtlebot3/turtlebot3_navigation/src/send_goal.cpp
+ros/ros.h
+-
+move_base_msgs/MoveBaseAction.h
+-
+actionlib/client/simple_action_client.h
+-
+
