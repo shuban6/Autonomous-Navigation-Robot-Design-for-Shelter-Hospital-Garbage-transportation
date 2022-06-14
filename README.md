@@ -151,6 +151,7 @@ catkin_init_workspace
 #install
 git clone https://github.com/hujiax380/pcd2pgm.git
 ```
+```
 cd ~/pcd2pgm_ws
 catkin_make
 ```
