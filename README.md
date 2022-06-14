@@ -158,11 +158,10 @@ Compile:
 cd ~/pcd2pgm_ws
 catkin_make
 ```
-
 Convert the map:
 ```
 roscore
- 
+
 #new terminal
 rosrun pcd2pgm pcd2topic
 ```
