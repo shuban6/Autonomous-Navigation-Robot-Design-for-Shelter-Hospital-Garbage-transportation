@@ -4,7 +4,7 @@ Based on Livox, Rplidar and camera.  Software: Navigation
 # **Application of SLAM in garbage collection in makeshift hospitals**
 
 ------
-##**1 Introduction**
+**1 Introduction**
 Up to April 25th, 2022, there were 400 shelter hospitals in China alone, and can receive about 560000 patients. In GuoBo Shelter Hospital, there were only 34 members in the cleaning team, who were responsible for about 10000 square meters of cleaning area and 3 tons of rubbish per day.
 Cleaners in shelter hospitals not only suffer from infection risk, but also are overwhelmed by heavy workloads.
 
