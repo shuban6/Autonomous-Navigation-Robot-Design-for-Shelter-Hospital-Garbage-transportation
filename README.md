@@ -101,8 +101,9 @@ cd /opt/MVS/bin
 
 #### **3.2.3 Prepare for the extrinsics matrix**
 Provide the instrinsic matrix and distor coeffs for your camera. Change the data path in calib.yaml to your local data path.
-```roslaunch livox_camera_calib calib.launch```
-
+```
+roslaunch livox_camera_calib calib.launch
+```
 Get the exstrinsic matrix and distor coeffs.
 
 ## **4 R3live Mapping**
