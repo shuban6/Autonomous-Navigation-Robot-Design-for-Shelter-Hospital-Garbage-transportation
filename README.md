@@ -18,20 +18,20 @@ Finally, the A-star algorithm and livox lidar is used to achieve path planning a
 We hope our product can help fight the Covid-19 epidemic, and the infectious diseases yet to come.
 ![Model of Product](https://s2.loli.net/2022/06/14/FOJ96qBTtl7zSoQ.png)
 
-##**1.1 Hardware**
+**1.1 Hardware**
 Hikvision camera is chosen to be involved in sensor fusion with livox lidar. Livox lidar is both used on mapping and path planning; rplidar is used for positioning. The underpan in our project is Scout mini.
 ![hardware.jpg](https://s2.loli.net/2022/06/14/WCgfV4UdlMTBHsQ.jpg)
 
 ------
 
-##**2 Prerequisites**
+**2 Prerequisites**
 The project needs Ubuntu and ROS.
 The version of Ubuntu is 20.04. ros Noetic. 
 ROS Installation and its additional ROS pacakge:
 
 ```sudo apt-get install ros-XXX-cv-bridge ros-xxx-pcl-conversions```
 
-###**2.1 [Livox SDK Installation](https://github.com/Livox-SDK/Livox-SDK)**
+**2.1 [Livox SDK Installation](https://github.com/Livox-SDK/Livox-SDK)**
 For Ubuntu 20.04
 ```
 # install preprequisites —— SDK is based on cmake
@@ -44,23 +44,23 @@ make
 sudo make install
 ```
 
-###**2.2 livox-ros-driver**
+**2.2 livox-ros-driver**
 Follow [livox-ros-driver](https://github.com/Livox-SDK/livox_ros_driver).
 
-###**2.3 [Livox Viewer](https://www.livoxtech.com/cn/downloads)**
+**2.3 [Livox Viewer](https://www.livoxtech.com/cn/downloads)**
 The version on the link is Ubuntu16.04, but the Ubuntu20.04 can operate it normally. The Livox Viewer can help you directly look at the point cloud file shape. But before using this viewer, you must ensure your computure and lidar are under the same IP address, the last bit of the ip address cannot be the same as the radar. 
 
-###**2.4 [Hikcamera SDK Installation](https://www.hikrobotics.com/cn/machinevision/service/download?module=0)**
+**2.4 [Hikcamera SDK Installation](https://www.hikrobotics.com/cn/machinevision/service/download?module=0)**
 Download the related verison and install in your computer.
 ```sudo dpkg -i name.deb```
 
-###**2.5 [HiKcamera ROS driver](https://www.hikrobotics.com/cn/machinevision/service/download?module=0)**
+**2.5 [HiKcamera ROS driver](https://www.hikrobotics.com/cn/machinevision/service/download?module=0)**
 Here is a [tutorial](https://blog.csdn.net/qqh2411988311/article/details/118764773) about the ROS driver. Follow it to install hikcamera ros driver.
 
-###**2.6 lidar_camera_calib**
+**2.6 lidar_camera_calib**
 Follow [lidar_camera_calib](https://github.com/hku-mars/livox_camera_calib).
 
-###**2.7 [scout_base ROS driver](https://github.com/agilexrobotics/scout_ros)**
+**2.7 [scout_base ROS driver](https://github.com/agilexrobotics/scout_ros)**
 Installation and compilation:
 ```
 cd ~/catkin_ws/src
@@ -71,7 +71,7 @@ git clone https://github.com/agilexrobotics/scout_ros.git
 cd .. && catkin_make
 ```
 
-##**3 Preparing related data**
+**3 Preparing related data**
 ### **3.1 Prepare for the Intrinsics**
 ```
 sudo apt-get install camera_calibration
@@ -81,7 +81,7 @@ The 8x6 is the grid number and 0.025 is the grid size.
 Get the instrinsic matrix and distor coeffs for your camera.
 
 ### **3.2 Prepare for the extrinsics**
-####**3.2.1 Record the pcd files for calibration**
+**3.2.1 Record the pcd files for calibration**
 Use the ivox-ros-driver to record a rosbag and transform the rosbag to pcd file.
 ```
 cd ws_livox
