@@ -1,6 +1,4 @@
 # Garbage transporting robot for shelter hospital
-![image](https://user-images.githubusercontent.com/69901333/173742126-32e56640-7667-4582-b849-ec2acebd0514.png)
-
 Hardware: Livox,  rplidarA1, MVS camera, SongLin Scout
 
 Software: r3live, Navigation, Turtlebot3
