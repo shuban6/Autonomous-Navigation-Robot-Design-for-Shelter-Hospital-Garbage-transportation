@@ -1,5 +1,5 @@
 # Garbage transporting robot for shelter hospital
-Hardware: Livox,  rplidarA1, MVS camera, SongLin Scout
+Hardware: Livox,  rplidarA1, MVS camera, SongLin Scout chassis
 
 Software: r3live, Navigation, Turtlebot3
 
