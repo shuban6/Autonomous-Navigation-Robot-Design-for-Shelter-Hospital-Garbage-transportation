@@ -168,7 +168,7 @@ Launch map_server:
 rosrun map_server map_saver
 ```
 
-##**5. Navigation**
+**5. Navigation**
 Download the [turtlebot3_navigation](https://github.com/ROBOTIS-GIT/turtlebot3).
 ```
 cd navigation_ws/src
