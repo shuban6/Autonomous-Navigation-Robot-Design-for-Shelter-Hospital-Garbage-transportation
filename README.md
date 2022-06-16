@@ -141,6 +141,7 @@ roslaunch r3live r3live_bag.launch
 Save the output map(.pcd) in the r3live_output_result file.
 
 ### **4.1 [Flatten the 3D map](https://blog.csdn.net/studentu/article/details/119699663)**
+Download the [r3live](https://github.com/Shu886/r3live).
 Here is a method to transform 3D SLAM point cloud map(.pcd) to 2D raster map(.pgm and the corresponding .yaml).
 
 Install pcd2pgm：
