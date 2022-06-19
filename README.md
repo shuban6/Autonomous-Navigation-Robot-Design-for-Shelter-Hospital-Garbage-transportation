@@ -259,6 +259,9 @@ Thanks to [R3LIVE](https://github.com/hku-mars/r3live), [lidar_camera_calib](htt
 
 # **6 Contribution**
 Zhang zhengxiang
+
 Cheng jiayi
+
 Lai jingyi
+
 Ban shu
