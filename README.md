@@ -257,7 +257,7 @@ rosrun turtlebot3_example send_goal_dyx.py
 # **6 Acknowledgements**
 Thanks to [R3LIVE](https://github.com/hku-mars/r3live), [lidar_camera_calib](https://github.com/hku-mars/livox_camera_calib),  Prof.Xiaoping Hong, Chongjian Yuan and Wen Yang.
 
-# **6 Contribution**
+# **7 Contributer**
 Zhang zhengxiang
 
 Cheng jiayi
